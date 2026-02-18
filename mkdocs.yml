@@ -1,0 +1,25 @@
+site_name: Monifactory Wiki Assistant
+site_description: Documentation for the Monifactory Wiki Assistant
+site_url: https://example.local/
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Setup: setup.md
+    - Usage: usage.md
+  - Reference:
+    - FAQ: faq.md
+repo_url: https://github.com/GoldJKR/Monifactory-Wiki-Assistant
+repo_name: GoldJKR/Monifactory-Wiki-Assistant
