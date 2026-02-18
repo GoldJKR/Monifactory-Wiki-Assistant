@@ -3,17 +3,6 @@ site_description: Documentation for the Monifactory Wiki Assistant
 site_url: https://example.local/
 theme:
   name: material
-  features:
-    - navigation.expand
-    - navigation.sections
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
 nav:
   - Home: index.md
   - Getting Started:
@@ -21,5 +10,15 @@ nav:
     - Usage: usage.md
   - Reference:
     - FAQ: faq.md
-repo_url: https://github.com/GoldJKR/Monifactory-Wiki-Assistant
-repo_name: GoldJKR/Monifactory-Wiki-Assistant
+  - Project Docs:
+    - PRD: prd.md
+    - Architecture: architecture.md
+    - Implementation Plan: implementation-plan.md
+    - Deployment: deployment.md
+    - Operations: operations.md
+    - Troubleshooting: troubleshooting.md
+    - Roadmap: roadmap.md
+    - Contribution: contribution.md
+    - Codex 5.2 Kickoff: codex-5_2-kickoff-prompt.md
+    - VS Code + WSL Handoff: vscode-wsl-handoff.md
+    - Minimal-Coding Handoff: minimal-coding-handoff.md
