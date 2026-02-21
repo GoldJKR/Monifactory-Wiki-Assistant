@@ -3,6 +3,10 @@
 Last Updated: 2026-02-21
 Status: Active
 
+Detailed decomposition reference: `docs/WBS.md`.
+Prompt automation reference: `docs/CODEX-5_3-PROMPT-SERIES.md`.
+Run evidence log: `docs/DELIVERY-LOG.md`.
+
 ## Execution Rules
 - One story-sized unit of work per run.
 - Preferred edit surface: 1-3 files.
@@ -26,8 +30,10 @@ Queue interpretation:
 - Work ID: `<queue + story id>`
 - Objective: one sentence
 - Allowed files: explicit path list
-- Validation: QA IDs and/or commands
-- Evidence target: log, PR section, or file path
+- Validation Plan: QA IDs and/or command list
+- Validation Output: pass/fail and minimal command output
+- Evidence Artifacts: file paths, screenshots, log snippets, or diff references
+- Traceability: links to WBS ID, delivery run ID, and changelog entry (if applicable)
 - Stop condition: exact done condition
 - Handoff: next unblocked story or blocker note
 
